@@ -1,0 +1,18 @@
+[alias]
+    s  = status
+    cm = commit -m
+    co = checkout
+    br = branch
+    d  = diff
+    unstage = reset HEAD --
+    last = log -1 HEAD
+    find = log --all --grep
+[user]
+	name = Mike Plis
+	email = mplis@oyster.com
+[push]
+	default = current
+[core]
+	editor = emacs
+[branch]
+    autosetuprebase = always
