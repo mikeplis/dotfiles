@@ -1,3 +1,6 @@
+DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
+donjayamanne.python
 dsznajder.es7-react-js-snippets
 esbenp.prettier-vscode
+formulahendry.auto-close-tag

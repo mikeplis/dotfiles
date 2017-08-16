@@ -1,14 +1,23 @@
 {
     "files.exclude": {
-        "**/*.pyc": true
+        "**/*.pyc": true,
+        "**/.vscode": true
     },
     "workbench.colorTheme": "Monokai",
+    "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "editor.rulers": [80, 120],
+    "editor.rulers": [120],
     "prettier.printWidth": 120,
     "prettier.tabWidth": 4,
     "prettier.singleQuote": true,
     "python.linting.enabled": true,
     "editor.renderWhitespace": "boundary",
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "gitlens.blame.line.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "search.exclude": {
+        "**/.cache": true,
+        "**/public": true
+    }
 }
+
