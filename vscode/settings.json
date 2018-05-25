@@ -1,23 +1,70 @@
 {
+    "editor.detectIndentation": false,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [
+        120
+    ],
+    "extensions.ignoreRecommendations": false,
     "files.exclude": {
         "**/*.pyc": true,
         "**/.vscode": true
     },
-    "workbench.colorTheme": "Monokai",
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "editor.rulers": [120],
-    "prettier.printWidth": 120,
-    "prettier.tabWidth": 4,
-    "prettier.singleQuote": true,
-    "python.linting.enabled": true,
-    "editor.renderWhitespace": "boundary",
     "files.trimTrailingWhitespace": true,
-    "gitlens.blame.line.enabled": false,
     "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "prettier.printWidth": 100,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "python.linting.enabled": true,
     "search.exclude": {
         "**/.cache": true,
-        "**/public": true
-    }
+        "**/package-lock.json": true,
+        "**/public": true,
+        "**/dist": true,
+        "**/node_modules": true,
+        "**/build": true,
+        "**/tools": true
+    },
+    "svgviewer.enableautopreview": false,
+    "window.zoomLevel": 2,
+    "workbench.colorTheme": "Night Owl",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": true,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": true,
+        "suppressWelcomeNotice": false
+    },
+    "typescript.autoImportSuggestions.enabled": false,
+    "sassFormat.indent": 2,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "todohighlight.keywords": [
+        "NOTE:",
+        "HACK:",
+        "XXX:"
+    ],
+    "files.associations": {
+        "*.tmpl": "jade"
+    },
+    "editor.quickSuggestionsDelay": 300,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "gitlens.keymap": "alternate",
+    "gitlens.historyExplorer.enabled": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "explorer.autoReveal": false,
+    "editor.cursorStyle": "block",
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
 }
-
