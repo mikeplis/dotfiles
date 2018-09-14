@@ -83,4 +83,38 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
 source ~/.aliases
+
+export IDEA_VM_OPTIONS="$HOME/idea.vmoptions"
+
+export PATH="$PATH:$HOME/bin/activator-dist-1.3.9/bin"
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home
+
+export PATH=/Users/mplis/Documents/apache-maven-3.3.9/bin:$PATH
+export PATH="/usr/local/opt/postgresql@9.5/bin:$PATH"
+
+export PYTHONPATH=~/workspace/main/tools/python/macosx:~/workspace/main/tools/python/modules:~/workspace/main/python
+
+autoload -U add-zsh-hook
+load-nvmrc() {
+  local node_version="$(nvm version)"
+  local nvmrc_path="$(nvm_find_nvmrc)"
+
+  if [ -n "$nvmrc_path" ]; then
+    local nvmrc_node_version=$(nvm version "$(cat "${nvmrc_path}")")
+
+    if [ "$nvmrc_node_version" = "N/A" ]; then
+      nvm install
+    elif [ "$nvmrc_node_version" != "$node_version" ]; then
+      nvm use
+    fi
+  elif [ "$node_version" != "$(nvm version default)" ]; then
+    echo "Reverting to nvm default version"
+    nvm use default
+  fi
+}
+add-zsh-hook chpwd load-nvmrc
+load-nvmrc
