@@ -1,18 +1,14 @@
 [alias]
-    s  = status
-    cm = commit -m
-    co = checkout
-    br = branch
-    d  = diff
-    unstage = reset HEAD --
-    last = log -1 HEAD
-    find = log --all --grep
-[user]
-	name = Mike Plis
-	email = mplis@oyster.com
-[push]
-	default = current
+        s  = status
+        cm = commit -m
+        co = checkout
+        br = branch
+        d  = diff
+        unstage = reset HEAD --
+        last = log -1 HEAD
+        find = log --all --grep
+        checkoutr = checkout
+        cor = checkoutr
 [core]
-	editor = emacs
-[branch]
-    autosetuprebase = always
+        editor = emacs
+        excludesfile = /Users/mplis/.gitignore_global
