@@ -1,0 +1,12 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "attachmentFolderPath": "/",
+  "showFrontmatter": true,
+  "foldIndent": true,
+  "foldHeading": true,
+  "showLineNumber": true,
+  "newFileLocation": "current",
+  "spellcheck": true,
+  "alwaysUpdateLinks": true
+}

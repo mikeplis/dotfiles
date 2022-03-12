@@ -1,0 +1,122 @@
+{
+  "main": {
+    "id": "2bc7164fae91bcfc",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea116ad892c5c56a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Issuing.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5bb53a7b1aa9f74c",
+    "type": "split",
+    "children": [
+      {
+        "id": "82757d6782b978d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d88839619e494f3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d0de44d8b1708529",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "48c2d0ed402df514",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ffcb3d0cb04f5db4",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e610fd07dd416ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb85f7c266c11389",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Issuing.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0e93100f5a899057",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ea116ad892c5c56a",
+  "lastOpenFiles": [
+    "Issuing.md",
+    "Treasury.md",
+    "Capital.md",
+    "Customer Acquisition Cost.md",
+    "Every compony will be a fintech company.md",
+    "Customer Lifetime Value.md",
+    "Konbini.md",
+    "Issuer.md",
+    "Payment Dispute.md",
+    "Payment Funnel.md"
+  ]
+}
